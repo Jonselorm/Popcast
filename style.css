@@ -179,20 +179,34 @@ section {
 
 
 /* trending starts here  */
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+
+}
+
+.top h1{
+font-size: 3rem;
+}
+
+.top p {
+  font-size: 1.5rem;
+  color: #00000080;
+  cursor: pointer;
+}
+
+
+.hero {
+  display: flex;
+} 
+
 .trending-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 10.6rem;
-}
-
-.trending-top h1 {
-  font-size: 3rem;
-}
-
-.trending-top p {
-  font-size: 1.5rem;
-  color: #00000080;
 }
 
 .trending-left {
@@ -202,6 +216,7 @@ section {
 
 .trending-left img {
   width: 30rem;
+  
 }
 
 .trending-left .woman {
@@ -229,13 +244,14 @@ section {
   margin-bottom: 2rem;
 }
 
-.trending-right .row{
+.trending-right .row .flex h5{
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 3rem;
-  margin-bottom: 3rem;
-
-}
+   /* position: relative; */
+  /* top: -00px; */
+} 
 
 
 .trending-right .lorem {
