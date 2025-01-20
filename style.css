@@ -253,6 +253,7 @@ section {
 
 .trending-right .down img {
   height: 4rem;
+  cursor: pointer;
 }
 
 .trending-right .down-middle h2 {
