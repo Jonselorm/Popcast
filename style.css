@@ -234,6 +234,7 @@ section {
   align-items: center;
   gap: 3rem;
   margin-bottom: 3rem;
+
 }
 
 
@@ -578,7 +579,7 @@ input:checked + .toogle-button {
 
 .plan:hover{
   background-color: #ea0505;
-  color: white;
+  /* color: white; */
   cursor: pointer;
 }
 
@@ -692,6 +693,11 @@ form button:hover {
   border-radius: 30px;
 }
 
+.footer-top p:hover{
+ background-color:  #ea0505;
+ color: #fff;
+}
+
 hr {
   border-bottom: 1px solid #00000080;
   margin-bottom: 5rem;
@@ -727,6 +733,7 @@ hr {
 
 .social-media {
   margin-top: 7rem;
+  cursor: pointer;
 }
 
 /* footer ends here  */
